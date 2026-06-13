@@ -8,8 +8,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:upstash/ratelimit-js.git"
+    "url": "git+https://github.com/upstash/ratelimit.git"
   },
+  "bugs": {
+    "url": "https://github.com/upstash/ratelimit/issues"
+  },
+  "homepage": "https://github.com/upstash/ratelimit#readme",
   "scripts": {
     "build": "tsup",
     "test": "bun test src --coverage",
